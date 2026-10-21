@@ -7,7 +7,7 @@ import metiers.UniteEnseignementBusiness;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-@Path("/ue")
+@Path("/ue-secured")
 public class UniteEnsWS {
     static UniteEnseignementBusiness helper=
             new UniteEnseignementBusiness();
